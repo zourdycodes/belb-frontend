@@ -1,0 +1,18 @@
+.nav-bar {
+  display: flex;
+  background: #d32323;
+  padding: 1rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 92px;
+  margin-top: -10px;
+  margin-right: 1rem;
+}
+
+.nav-button {
+  margin-left: 1rem;
+  margin-top: -10px;
+}

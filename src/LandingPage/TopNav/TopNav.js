@@ -9,7 +9,7 @@ const TopNav = () => {
         <span>Events</span>
       </div>
       <div className={styles.right}>
-        <span>Login</span>
+        <span className={styles.login}>Login</span>
         <button className="button is-info is-outlined">Sign up</button>
       </div>
     </div>

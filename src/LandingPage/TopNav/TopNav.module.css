@@ -9,6 +9,10 @@
   margin: var(--element-spacing);
 }
 
+.login {
+  cursor: pointer;
+}
+
 .left > * {
   margin-right: var(--element-spacing);
 }
