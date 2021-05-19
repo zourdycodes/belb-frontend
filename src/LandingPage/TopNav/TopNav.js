@@ -10,7 +10,7 @@ const TopNav = () => {
       </div>
       <div className={styles.right}>
         <span>Login</span>
-        <button className="button">Sign up</button>
+        <button className="button is-info is-outlined">Sign up</button>
       </div>
     </div>
   );
