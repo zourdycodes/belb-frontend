@@ -3,7 +3,7 @@ import styles from "./SearchBar.module.css";
 
 const SearchBar = () => {
   return (
-    <div className="field has-addons">
+    <div className={`field has-addons ${styles["search__container"]}`}>
       <p className="control">
         <button className="button is-static is-medium">Search</button>
       </p>

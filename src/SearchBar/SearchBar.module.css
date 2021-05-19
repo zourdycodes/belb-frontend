@@ -1,3 +1,10 @@
+/* .search__container {
+  position: absolute;
+  top: 45%;
+  right: 50%;
+  transform: translate(50%, 50%);
+} */
+
 .input-control {
   min-width: 20rem;
 }
