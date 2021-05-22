@@ -1,0 +1,12 @@
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+/* .rating > * {
+  margin-right: 9px;
+} */
+
+.reviews {
+  margin-left: 10px;
+}
