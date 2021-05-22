@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+<img src='../logo-belb.png'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> _BELB_ is an application to search your lovable spot
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![twitter](https://img.shields.io/badge/Follow--lightgrey?logo=twitter&style=social)](https://twitter.com/zourdythedev)
+
+# 🙌 BELB FRONT END
+
+Hello fellow developers! this repository contains restrict content from YELP API, this project is used to learning purposes only
+and not for development, hence you cannot deploy this repository please read the `code of conduct.md` and please use this for learning and boost your skillsets
+. Thank youu 😙❤
 
 ## Available Scripts
 

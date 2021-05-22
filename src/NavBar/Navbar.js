@@ -15,7 +15,9 @@ const Navbar = (props) => {
           alt="belb-frontend website search your spot logo"
         />
       </Link>
-      <SearchBar small term={props.term} location={props.location} />
+      <div className={styles["search-bar"]}>
+        <SearchBar small term={props.term} location={props.location} />
+      </div>
       <button className={`button ${styles["nav-button"]}`}>Sign in</button>
       <button className={`button ${styles["nav-button"]}`}>Register</button>
       {/* </div> */}
