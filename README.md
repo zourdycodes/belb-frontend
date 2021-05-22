@@ -11,23 +11,11 @@ Hello fellow developers! this repository contains restrict content from YELP API
 and not for development, hence you cannot deploy this repository please read the `code of conduct.md` and please use this for learning and boost your skillsets
 . Thank youu 😙❤
 
-# 🐱‍👤 Demo 💥💃🚀🐱‍🏍🔥⚡
+# 🐱‍👤 Demo
 
 ![Yelp Home](images/yelp.gif)
 
-## Project Architecture
-
-<img alt="bankist-easy-to-share" src="./dist/images/Mapty-architecture-final.png">
-
-## Tech Stack
-
-🚀**Client:** React.js, CSS3, Bulma.css, JAVASCRIPT
-
-🚀**Server:** Node, Express
-
-🚀**Libraries & API:** CommonJS, IntersectionObeserver API, YELP FUSION API
-
-## Contributing
+## 💃 Contributing
 
 Contributions are always welcome!
 
@@ -35,69 +23,41 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-## Available Scripts
+# 💥 Caveats
 
-In the project directory, you can run:
+- This app uses the [CORS Anywhere](https://github.com/Rob--W/cors-anywhere/#documentation) because the [Yelp Fusion REST API](https://www.yelp.com>_ For the sake of the tutorial, we decided to proxy all request through [CORS Anywhere](https://github.com/Rob--W/cors-anywhere/#documentation) so >_ **You should not run this in production because you would expose a `Bearer token` on the client side**. We only did this so that this tutorial ca>\* **DO NOT commit your bearer token to source control if you work on a public repository**.
 
-### `yarn start`
+# ⚡ How to run this Application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application looks pretty much the same like the original [Yelp](https://www.yelp.com) website.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+It leverages the free [Yelp Fusion REST API](https://www.yelp.com/developers/documentation/v3) for which you need an API key.
 
-### `yarn test`
+1. Head over to the [Yelp Fusion API documentation](https://www.yelp.com/developers/documentation/v3)
+2. Click on `Create App` and sign in if you haven't done so already
+3. Once you have signed in, click on the `Get Started` button. If you already have an app, then you will already see the API key
+4. Fill out the form for [creating a new app](https://www.yelp.com/developers/v3/manage_app)
+5. Copy the generated `API key`. This is a [bearer token](https://stackoverflow.com/questions/25838183/what-is-the-oauth-2-0-bearer-token-exactly/2>6. Navigate to the `src/hooks/yelp-api/config.js` file and assign the `BEARER_TOKEN` variable the following content
+   ```
+   const BEARER_TOKEN = '<your-token-here>'
+   ```
+6. Install the dependencies by running `npm install` or `yarn install`
+7. Run the app with `npm start` or `yarn start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🚀 Used Technologies
 
-### `yarn build`
+- [React / create-react-app](https://github.com/facebook/create-react-app)
+  - **only functional components**
+  - communication with web servers with [React Hooks](https://reactjs.org/docs/hooks-intro.html) only
+  - no higher order or class-based components
+- [React router](https://github.com/ReactTraining/react-router) with [useReactRouter](https://github.com/CharlesStover/use-react-router)
+- [Bulma](https://bulma.io)
+- Flexbox
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🐱‍🏍 Disclaimer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is **solely intended for educational purposes** and is created under **fair use**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+It is **not intended to create any kind of Yelp competitor**, but to teach advanced concepts in frontend development.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Just see it a nice educational project that will help you to improve your coding skills.
