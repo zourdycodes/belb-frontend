@@ -1,4 +1,4 @@
-<img src='../logo-belb.png'>
+<!-- <img src='../logo-belb.png'> -->
 
 > _BELB_ is an application to search your lovable spot
 
