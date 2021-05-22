@@ -11,6 +11,30 @@ Hello fellow developers! this repository contains restrict content from YELP API
 and not for development, hence you cannot deploy this repository please read the `code of conduct.md` and please use this for learning and boost your skillsets
 . Thank youu 😙❤
 
+# 🐱‍👤 Demo 💥💃🚀🐱‍🏍🔥⚡
+
+![Yelp Home](images/yelp.gif)
+
+## Project Architecture
+
+<img alt="bankist-easy-to-share" src="./dist/images/Mapty-architecture-final.png">
+
+## Tech Stack
+
+🚀**Client:** React.js, CSS3, Bulma.css, JAVASCRIPT
+
+🚀**Server:** Node, Express
+
+🚀**Libraries & API:** CommonJS, IntersectionObeserver API, YELP FUSION API
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
 ## Available Scripts
 
 In the project directory, you can run:
