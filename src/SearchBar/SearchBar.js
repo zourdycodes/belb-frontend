@@ -29,6 +29,7 @@ const SearchBar = (props) => {
             onChange={(e) => setTerm(e.target.value)}
             className={`input ${sizeClass} ${styles["input-control"]}`}
             type="text"
+            value={term}
             placeholder="Search Your Spot"
           />
         </p>
@@ -41,6 +42,7 @@ const SearchBar = (props) => {
             onChange={(e) => setLocation(e.target.value)}
             className={`input ${sizeClass} ${styles["input-control"]}`}
             type="text"
+            value={location}
             placeholder="Search Near You!"
           />
         </p>

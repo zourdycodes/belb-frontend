@@ -4,7 +4,7 @@ import logo from "../assets/logo-belb.png";
 import SearchBar from "../SearchBar/SearchBar";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className={styles["nav-bar"]}>
       {/* <div className={styles.wrap}> */}
@@ -15,7 +15,7 @@ const Navbar = () => {
           alt="belb-frontend website search your spot logo"
         />
       </Link>
-      <SearchBar small />
+      <SearchBar small term={props.term} location={props.location} />
       <button className={`button ${styles["nav-button"]}`}>Sign in</button>
       <button className={`button ${styles["nav-button"]}`}>Register</button>
       {/* </div> */}
